@@ -4,10 +4,10 @@ const imagenesModelos = {
         "Imagenes/Anatema/Anatema-2.png",
         "Imagenes/Anatema/Anatema-3.png"
     ],
-    CharacterA: [
-        "Imagenes/CharacterA/CharacterA-1.png",
-        "Imagenes/CharacterA/CharacterA-2.png",
-        "Imagenes/CharacterA/CharacterA-3.png"
+    chaA: [
+        "Imagenes/chaA/CharacterA-1.png",
+        "Imagenes/chaA/CharacterA-2.png",
+        "Imagenes/chaA/CharacterA-3.png"
     ],
     CharacterB: [
         "Imagenes/CharacterB/CharacterB-1.png",

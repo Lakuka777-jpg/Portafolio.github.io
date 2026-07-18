@@ -9,6 +9,9 @@ header {
     padding: 20px 40px;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .encabezado {
@@ -17,13 +20,18 @@ header {
   text-align: center;
 }
 
-.presentacion {
+.P1-Titulo {
   color: #EAE0CF;
   font-family: Arial, sans-serif;
   text-align: left;
 }
 
-#presentacion {
+.Perfil-img {
+  width: 20%;
+  height: auto;
+}
+
+#P1-Titulo {
   background-color: #111844;
   color: #EAE0CF;
   font-family: Arial, sans-serif;
@@ -31,8 +39,18 @@ header {
   padding: 30px;
 }
 
+.contenido {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.presentacion-texto {
+    margin-bottom: 10px;
+}
+
 body {
-  background-color: #4B5694;
+  background-color: #000000;
   color: #EAE0CF;
 }
 
@@ -46,15 +64,19 @@ body {
 .Modelo-card {
     background-color: #4B5694;
     padding: 30px;
-    border-radius: 4px;
-    width: 600px;
-    text-align: right;
+    border-radius: 1px;
+    width: 400px;
+    text-align: Left;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s ease;
+}
+.Modelo-card:hover {
+    transform: translateY(-5px);
 }
 
 .Modelo-card img {
     width: 100%;
-    border-radius: 8px;
-    gap: 10px;
+    border-radius: 0px;
 }
 
 #Modelos {
@@ -62,6 +84,7 @@ body {
   color: #EAE0CF;
   font-family: Arial, sans-serif;
   text-align: center;
+  padding: 30px;
 }
 
 .carrusel {
@@ -84,7 +107,7 @@ body {
     font-size: 1.5em;
     padding: 5px 12px;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 
 .flecha-izq {

@@ -8,6 +8,11 @@ const imagenesModelos = {
         "Imagenes/FireForge/CharacterA-1.png",
         "Imagenes/FireForge/CharacterA-2.png",
         "Imagenes/FireForge/CharacterA-3.png"
+    ],
+        FireForge: [
+        "Imagenes/FireForge/CharacterB-1.png",
+        "Imagenes/FireForge/CharacterB-2.png",
+        "Imagenes/FireForge/CharacterB-3.png"
     ]
 }
 

@@ -1,9 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     background-color: #060818;
     padding: 20px 40px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .encabezado {
@@ -11,17 +16,19 @@ header {
   font-family: Arial, sans-serif;
   text-align: center;
 }
-#inicio {
-  background-color: #111844;
-  color: #EAE0CF;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  padding: 20px;
-}
+
 .presentacion {
   color: #EAE0CF;
   font-family: Arial, sans-serif;
-  text-align: center;
+  text-align: left;
+}
+
+#presentacion {
+  background-color: #111844;
+  color: #EAE0CF;
+  font-family: Arial, sans-serif;
+  text-align: Left;
+  padding: 30px;
 }
 
 body {
@@ -29,12 +36,66 @@ body {
   color: #EAE0CF;
 }
 
+.Galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.carrusel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrusel img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.flecha {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    font-size: 1.5em;
+    padding: 5px 12px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.flecha-izq {
+    left: 5px;
+}
+
+.flecha-der {
+    right: 5px;
+}
+
+.flecha:hover {
+    background-color: hotpink;
+}
+
+.Modelo-card {
+    background-color: #4B5694;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+}
+
+.Modelo-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
 #Modelos {
   background-color: #7288AE;
   color: #EAE0CF;
   font-family: Arial, sans-serif;
   text-align: center;
-  padding: 20px;
 }
 
 #contacto {

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portafolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
 </head>
 
 <body>
@@ -16,21 +18,33 @@
 
     </header>
 
-    <section id="inicio">
+    <section id="presentacion">
         <h1 class="presentacion">Presentacion</h1>
         <p>Modelador 3D, experiencia en diseño y texturización, y programacion en c#, HTML</p>
     </section>
 
     <section id="Modelos">
-        <h1 class="proyectos">Proyectos</h1>
-        <div class="proyecto">
-            <h2>Proyecto 1</h2>
-            <p>Descripción del proyecto 1.</p>
+
+        <h1 class="proyectos">Modelos 3D</h1>
+
+        <div class = galeria>
+
+            <div class="Modelo-card">
+                <div class="carrusel">
+                    <button class="flecha flecha-izq" onclick="cambiarImagen(this, -1)">‹</button>
+                    <img src="imagenes/Anatema/Anatema-1.png" alt="Anatema" class="carrusel-img" data-indice="0">
+                    <button class="flecha flecha-der" onclick="cambiarImagen(this, 1)">›</button>
+                </div>
+                <p>Anatema</p>
+            </div>
+
+            <div class="Modelo-card">
+                <img src="C:\Users\lucas\Documents\Portafolio.github.io\Imagenes\rifle.jpg" alt="Rifle">
+                <p>Rifle</p>
+            </div>
+        
         </div>
-        <div class="proyecto">
-            <h2>Proyecto 2</h2>
-            <p>Descripción del proyecto 2.</p>
-        </div>
+
     </section>
 
     <section id="contacto">

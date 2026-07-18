@@ -43,6 +43,27 @@ body {
     gap: 20px;
 }
 
+.Modelo-card {
+    background-color: #4B5694;
+    padding: 30px;
+    border-radius: 4px;
+    width: 600px;
+    text-align: right;
+}
+
+.Modelo-card img {
+    width: 100%;
+    border-radius: 8px;
+    gap: 10px;
+}
+
+#Modelos {
+  background-color: #7288AE;
+  color: #EAE0CF;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
 .carrusel {
     position: relative;
     display: flex;
@@ -76,26 +97,6 @@ body {
 
 .flecha:hover {
     background-color: hotpink;
-}
-
-.Modelo-card {
-    background-color: #4B5694;
-    padding: 15px;
-    border-radius: 8px;
-    width: 250px;
-    text-align: center;
-}
-
-.Modelo-card img {
-    width: 100%;
-    border-radius: 8px;
-}
-
-#Modelos {
-  background-color: #7288AE;
-  color: #EAE0CF;
-  font-family: Arial, sans-serif;
-  text-align: center;
 }
 
 #contacto {

@@ -13,7 +13,42 @@ header {
     top: 0;
     z-index: 100;
 }
+.presentacion-grid {
+    display: flex;
+    min-height: 100vh;
+}
 
+.presentacion-col-izq {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+.presentacion-col-der {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    border-left: 2px solid #EAE0CF;
+}
+
+.presentacion-img {
+    width: 250px;
+    border-radius: 8px;
+}
+
+.presentacion-texto p {
+    margin-top: 10px;
+}
+
+.lista-habilidades {
+    list-style: none;
+    font-size: 1.3em;
+    line-height: 1.8;
+}
 .encabezado {
   color: #EAE0CF;
   font-family: 'Times New Roman', Times, serifsans-serif;

@@ -1,9 +1,16 @@
+/* ===== RESET GENERAL ===== */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    background-color: #000000;
+    color: #EAE0CF;
+}
+
+/* ===== HEADER ===== */
 header {
     background-color: #0d1131;
     padding: 20px 40px;
@@ -13,6 +20,14 @@ header {
     top: 0;
     z-index: 100;
 }
+
+.encabezado {
+    color: #EAE0CF;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/* ===== SECCIÓN PRESENTACIÓN ===== */
 .presentacion-grid {
     display: flex;
     min-height: 100vh;
@@ -35,9 +50,19 @@ header {
     border-left: 2px solid #EAE0CF;
 }
 
+.presentacion {
+    color: #EAE0CF;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
 .presentacion-img {
     width: 250px;
     border-radius: 8px;
+}
+
+.presentacion-texto {
+    margin-bottom: 10px;
 }
 
 .presentacion-texto p {
@@ -49,48 +74,14 @@ header {
     font-size: 1.3em;
     line-height: 1.8;
 }
-.encabezado {
-  color: #EAE0CF;
-  font-family: 'Times New Roman', Times, serifsans-serif;
-  text-align: center;
-}
 
-.P1-Titulo {
-  color: #EAE0CF;
-  font-family: Arial, sans-serif;
-  text-align: left;
-}
-.Perfil-img {
-  width: 15%;
-  height: auto;
-}
-#P1-Titulo {
-  background-color: #111844;
-  color: #EAE0CF;
-  font-family: Arial, sans-serif;
-  text-align: Left;
-  padding: 30px;
-}
-
-body {
-  background-color: #000000;
-  color: #EAE0CF;
-}
-
-.resume{
+/* ===== SECCIÓN MODELOS ===== */
+#Modelos {
     background-color: #7288AE;
     color: #EAE0CF;
     font-family: Arial, sans-serif;
-}
-
-.contenido {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
-
-.presentacion-texto {
-    margin-bottom: 10px;
+    text-align: center;
+    padding: 30px;
 }
 
 .Galeria {
@@ -105,10 +96,11 @@ body {
     padding: 30px;
     border-radius: 1px;
     width: 400px;
-    text-align: Left;
+    text-align: left;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
     transition: transform 0.2s ease;
 }
+
 .Modelo-card:hover {
     transform: translateY(-5px);
 }
@@ -118,14 +110,7 @@ body {
     border-radius: 0px;
 }
 
-#Modelos {
-  background-color: #7288AE;
-  color: #EAE0CF;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  padding: 30px;
-}
-
+/* Carrusel de imágenes dentro de cada tarjeta */
 .carrusel {
     position: relative;
     display: flex;
@@ -161,10 +146,11 @@ body {
     background-color: hotpink;
 }
 
+/* ===== SECCIÓN CONTACTO ===== */
 #contacto {
-  background-color: #EAE0CF;
-  color: #0e0e0e;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  padding: 20px;
+    background-color: #EAE0CF;
+    color: #0e0e0e;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
 }

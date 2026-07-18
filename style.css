@@ -3,7 +3,13 @@
   font-family: Arial, sans-serif;
   text-align: center;
 }
-
+#inicio {
+  background-color: #111844;
+  color: #EAE0CF;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
 .presentacion {
   color: #EAE0CF;
   font-family: Arial, sans-serif;
@@ -13,6 +19,13 @@
 body {
   background-color: #4B5694;
   color: #EAE0CF;
+}
+#Modelos {
+  background-color: #4B5694;
+  color: #EAE0CF;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
 }
 
 header {

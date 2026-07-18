@@ -3,6 +3,11 @@ const imagenesModelos = {
         "Imagenes/Anatema/Anatema-1.png",
         "Imagenes/Anatema/Anatema-2.png",
         "Imagenes/Anatema/Anatema-3.png"
+    ],
+    FireForge: [
+        "Imagenes/FireForge/CharacterA-1.png",
+        "Imagenes/FireForge/CharacterA-2.png",
+        "Imagenes/FireForge/CharacterA-3.png"
     ]
 }
 

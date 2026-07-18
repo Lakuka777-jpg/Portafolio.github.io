@@ -1,8 +1,8 @@
 const imagenesModelos = {
-    anatema: [
-        "images/Anatema/Anatema-1.png",
-        "images/Anatema/Anatema-2.png",
-        "images/Anatema/Anatema-3.png"
+    Anatema: [
+        "Imagenes/Anatema/Anatema-1.png",
+        "Imagenes/Anatema/Anatema-2.png",
+        "Imagenes/Anatema/Anatema-3.png"
     ]
 }
 

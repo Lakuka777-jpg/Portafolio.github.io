@@ -1,3 +1,11 @@
+header {
+    background-color: #111844;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .encabezado {
   color: #EAE0CF;
   font-family: Arial, sans-serif;
@@ -20,6 +28,7 @@ body {
   background-color: #4B5694;
   color: #EAE0CF;
 }
+
 #Modelos {
   background-color: #4B5694;
   color: #EAE0CF;
@@ -28,10 +37,10 @@ body {
   padding: 20px;
 }
 
-header {
-    background-color: #111844;
-    padding: 20px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+#contacto {
+  background-color: #EAE0CF;
+  color: #0e0e0e;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
 }

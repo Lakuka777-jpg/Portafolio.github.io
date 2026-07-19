@@ -12,6 +12,9 @@ const imagenesModelos = {
     BatallaDeSanFrancisco: [
         "Imagenes/BatallaDeSanFrancisco/BSF-1.png",
         "Imagenes/BatallaDeSanFrancisco/BSF-2.png",
+        "Imagenes/BatallaDeSanFrancisco/BSF-3.png",
+        "Imagenes/BatallaDeSanFrancisco/BSF-4.png",
+        "Imagenes/BatallaDeSanFrancisco/BSF-5.png"
     ]
 };
 

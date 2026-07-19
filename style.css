@@ -167,7 +167,7 @@ header {
     background-color: #677b9e;
     border: 1px solid #000000;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
-    max-width: 1000px;
+    max-width: 2000px;
     margin: 0 auto 30px auto;
     overflow: hidden;
 }
@@ -233,6 +233,6 @@ header {
     background-color: #EAE0CF;
     color: #0e0e0e;
     font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 20px;
+    text-align: left;
+    padding: 40px;
 }
